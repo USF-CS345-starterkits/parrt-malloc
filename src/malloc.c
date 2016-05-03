@@ -45,7 +45,7 @@ void heap_shutdown() {
  *  bytes depending on word size.
  */
 void *malloc(size_t size) {
-	// TODO: if keep not allocated, initialized with the default heap size
+	// TODO: if heap not allocated, initialized with the default heap size
 	// TODO: return NULL if we are out of memory
 	// TODO: add enough space so that we have room for our header
 	// TODO: aligned to a word boundary
